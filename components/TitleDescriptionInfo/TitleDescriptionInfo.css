@@ -1,0 +1,16 @@
+.Textos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Descricao {
+    font-size: 15px;
+    color: green;
+}
+
+.Titulo {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,10 @@
+.Card {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.Card:hover {
+    cursor: pointer;
+}

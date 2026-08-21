@@ -1,0 +1,19 @@
+.CardSimples {
+    margin: 15% auto ;
+    width: 300;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(235, 192, 127);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(-40px);
+}
+
