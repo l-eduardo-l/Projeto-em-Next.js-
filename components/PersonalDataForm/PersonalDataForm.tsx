@@ -1,14 +1,17 @@
+import "./PersonalDataForm.css"
+import Input from "@/components/Input/Input";
 export default function PersonalDataForm () {
     return (
-        <div>
-            <h2>Dados passoais</h2>
+        <div className="PersonalDataForm">
+            <h2>Adicionar dados ao card</h2>
 
-            <input placeholder="Nome" />
-            <input placeholder="Sobrenome" />
-            <input placeholder="Email" />
-            <input placeholder="Telefone" />
+        <div className="PersonalDataInput">
+            <Input placeholder="Nome" />
+            <Input placeholder="Raça" />
+            <Input placeholder="Data de nascimento" />
+        </div>
 
-            <button>
+            <button className="PersonalDataButton">
                 Salvar
             </button>
         </div>

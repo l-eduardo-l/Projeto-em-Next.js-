@@ -1,0 +1,58 @@
+.PersonalDataForm {
+  width: 900px;
+  background-color: #bd9a63;
+  border-radius: 12px;
+
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 18px;
+
+  box-sizing: border-box;
+}
+
+.PersonalDataForm h2 {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.PersonalDataInputs {
+  width: 100%;
+
+  display: flex;
+  gap: 10px;
+}
+
+.PersonalDataInputs input {
+  flex: 1;
+
+  height: 38px;
+
+  padding: 0 10px;
+
+  border: 1px solid #777;
+  border-radius: 6px;
+
+  box-sizing: border-box;
+}
+
+.PersonalDataButton {
+  width: 180px;
+  height: 40px;
+
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+.PersonalDataButton:hover {
+  opacity: 0.85;
+}
