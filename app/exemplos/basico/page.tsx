@@ -8,11 +8,11 @@ export default function BasicoPage () {
     return (
         <main className="CardSimples">
             
-            <TitleDescriptionInfo title="Votação" description="Aponte uma tema para o proximo enem!" />
+            <TitleDescriptionInfo title="Votação" description="Aponte um tema para o proximo enem!" />
 
-            <Input placeholder="Digite o proximo assunto para o Enem" />
+            <Input placeholder="Digite o próximo assunto para o Enem" />
 
-            <Link href="../entrar">
+            <Link href="/entrar">
                 <Button>Botãozão</Button>
             </Link>
 
