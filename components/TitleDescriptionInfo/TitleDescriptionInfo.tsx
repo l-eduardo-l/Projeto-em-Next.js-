@@ -1,3 +1,4 @@
+//Importa o Css
 import "./TitleDescriptionInfo.css";
 
 // Definimos 2 props para esse componente  
@@ -6,8 +7,10 @@ type TitleDescriptionInfoProps = {
     description: string;
 };
 
+//Função que cria e desestrutura duas props, title e description em um componente. 
 export default function TitleDescriptionInfo ({ title, description, }: TitleDescriptionInfoProps) {
     return (
+
         <div className="Textos">
             <h1 className="Titulo">{title}</h1>
             <p className="Descricao">{description}</p>

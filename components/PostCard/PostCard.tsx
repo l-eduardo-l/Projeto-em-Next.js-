@@ -1,7 +1,11 @@
+//Importa o Css 
 import "./PostCard.css";
 
+//Componente que gera um card com imagem e textos estilizados. 
 export default function PostCard() {
     return (
+    
+//Container principal do card
         <div className="PostCard">
             <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWA9a1VJt6izEf_ifFsnZhtW_QnVaEZuT336gBaYBfPw&s=10"
